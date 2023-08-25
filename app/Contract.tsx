@@ -87,7 +87,7 @@ const Contract = ({ data }) => {
     else if (element.type === 'clause') {
       return (
         <div className="whitespace-pre ">
-          <br></br>
+         <br></br>
           {element.children.map(renderBlock)}
         </div>
       );
