@@ -1,0 +1,26 @@
+/* src/Contract.css */
+
+.block h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  
+  p span {
+    padding: 2px 5px;
+    border-radius: 3px;
+  }
+
+
+.clause {
+  margin: 1em 0;
+  display: flex;
+  align-items: center;
+}
+
+.clause-number {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.display-linebreak {
+  white-space: pre-line;
+}
